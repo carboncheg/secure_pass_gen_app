@@ -1,0 +1,5 @@
+digits = '0123456789'
+lowercase_letters = 'abcdefghijklmnopqrstuvwxyz'
+uppercase_letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+symbols = '!#$%&*+-=?@^_'
+ambiguous_characters = 'lI0O'
