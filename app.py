@@ -86,9 +86,9 @@ for i in range(int(num_pass)):
     pswd = generate_password(len_pass, chars)
     print(pswd)
 
-    if len(pswd) < 5:
+    if len(pswd) < 9:
         print('Это слабый пароль')
-    elif len(pswd) > 7:
+    elif len(pswd) > 9:
         counter = 0
         for c in data.digits:
             if c in pswd:
